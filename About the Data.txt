@@ -1,0 +1,30 @@
+Renting out their unused room is the basic concept behind the Airbnb with that the traveller can get cheap accomodation and owner of the house can moentize their unused rooms. It is gaining momentum and Airbnb wants to gain more market share by showing to the prospective owners that how can much they can earn from their property.
+
+For that we need to create a good analytics solution that they can show the earning potential to the prospective customers
+
+
+Definition of variables
+
+room_id: A unique number identifying an Airbnb listing.
+host_id: A unique number identifying an Airbnb host.
+room_type: One of entire apartment, Private room, or a Shared room
+borough: A subregion of the city or search area for which the survey is carried out. The borough is taken from a shapefile of the city that is obtained independently of the Airbnb web site. For some cities, there is no borough information; for others the borough may be a number
+neighborhood: As with borough: a subregion of the city or search area for which the survey is carried out. For cities that have both, a neighbourhood is smaller than a borough. For some cities there is no neighbourhood information
+reviews: The number of reviews that a listing has received. Airbnb has said that 70% of visits end up with a review, so the number of reviews can be used to estimate the number of visits. Note that such an estimate will not be reliable for an individual listing (especially as reviews occasionally vanish from the site), but over a city as a whole it should be a useful metric of traffic
+overall_satisfaction: The average rating (out of five) that the listing has received from those visitors who left a review
+accommodates: The number of guests a listing can accommodate.
+bedrooms: The number of bedrooms a listing offers.
+price: The price (in $US) for a night stay. In early surveys, there may be some values that were recorded by month
+minstay: The minimum stay for a visit, as posted by the host.
+latitude and longitude: The latitude and longitude of the listing as posted on the Airbnb site: this may be off by a few hundred metres
+last_modified: the date and time that the values were read from the Airbnb web site.
+
+
+This dataset is only for amsterdam. (UK)
+If there are more reviews your property will be rented out sooner. people love to see the review of the other people who have stayed before booking. 
+
+
+
+Analysis:
+1. Does having a good name attarct more people or more review?
+
